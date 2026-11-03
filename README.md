@@ -41,14 +41,14 @@ Con la propia clave de OpenAI, Google Gemini o Anthropic Claude. La clave se gua
 
 ## Autoría
 
-Fernando Borrás Rocher (Universidad Miguel Hernández de Elche).
+Fernando Borrás Rocher (Universidad Miguel Hernández de Elche), Domingo Rafael Galiana Lapera (Observatorio Ocupacional, Universidad Miguel Hernández de Elche) y Dolores López Martínez (Observatorio Ocupacional, Universidad Miguel Hernández de Elche).
 
 
-ORCID: Fernando Borrás Rocher [0000-0002-5519-4573](https://orcid.org/0000-0002-5519-4573)
+ORCID: Fernando Borrás Rocher [0000-0002-5519-4573](https://orcid.org/0000-0002-5519-4573) · Domingo Rafael Galiana Lapera [0000-0002-9803-4246](https://orcid.org/0000-0002-9803-4246)
 
 ## Cómo citar
 
-Borrás Rocher, F. (2026). *CompetencIA* (v1.0.0) [Software]. DOI: [10.5281/zenodo.23930177](https://doi.org/10.5281/zenodo.23930177)
+Borrás Rocher, F., Galiana Lapera, D. R. y López Martínez, D. (2026). *CompetencIA* (v1.0.1) [Software]. DOI: [10.5281/zenodo.23930177](https://doi.org/10.5281/zenodo.23930177)
 
 ## Pruebas
 

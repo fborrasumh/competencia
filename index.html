@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0F2237">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src data: blob:; media-src blob: data:; connect-src https://api.openai.com https://generativelanguage.googleapis.com https://api.anthropic.com; base-uri 'none'; form-action 'none'">
-<meta name="author" content="Fernando Borrás Rocher">
+<meta name="author" content="Fernando Borrás Rocher; Domingo Rafael Galiana Lapera; Dolores López Martínez">
 <meta name="description" content="Tus competencias transversales, de A1 a C2, con evidencias verificadas">
 <title>CompetencIA · Tus competencias transversales, de A1 a C2, con evidencias verificadas</title><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -492,8 +492,10 @@ label.btn{cursor:pointer}
     <p class="lede" data-i18n="hero.lede">Cuenta cinco situaciones reales que hayas vivido. La IA propone tu nivel en cada competencia citando tus propias palabras; el código comprueba cada cita y no deja subir el nivel sin pruebas suficientes. Tú decides el nivel final.</p>
     <div class="actions"><button class="btn btn-primary btn-big" id="btnStart" type="button"><svg class="i"><use href="#i-play"/></svg><span data-i18n="s.empezar">Empezar</span></button><button class="btn btn-ghost btn-big" id="btnEjemplo" type="button"><svg class="i"><use href="#i-eye"/></svg><span data-i18n="s.ejemplo">Ver un ejemplo</span></button></div>
     <p class="fa-inicio" id="inicioProj"></p>
-    <div class="fa-autores"><span class="fa-autores-cap" data-i18n="Realizada por">Realizada por</span>
-      <div class="fa-autor"><span class="fa-av" style="--c:#E4572E">FB</span><div><b>Fernando Borrás Rocher</b><small>Universidad Miguel Hernández de Elche</small><a class="fa-orcid" href="https://orcid.org/0000-0002-5519-4573" target="_blank" rel="noopener">ORCID 0000-0002-5519-4573</a></div></div>
+    <div class="fa-autores"><span class="fa-autores-cap" data-i18n="Realizada entre">Realizada entre</span>
+      <div class="fa-autor"><span class="fa-av" style="--c:#E4572E">FB</span><div><b>Fernando Borrás Rocher</b><small>Universidad Miguel Hernández de Elche</small><a class="fa-orcid" href="https://orcid.org/0000-0002-5519-4573" target="_blank" rel="noopener">ORCID 0000-0002-5519-4573</a></div></div><span class="fa-x">×</span>
+      <div class="fa-autor"><span class="fa-av" style="--c:#0E8C7A">DR</span><div><b>Domingo Rafael Galiana Lapera</b><small>Observatorio Ocupacional, Universidad Miguel Hernández de Elche</small><a class="fa-orcid" href="https://orcid.org/0000-0002-9803-4246" target="_blank" rel="noopener">ORCID 0000-0002-9803-4246</a></div></div><span class="fa-x">×</span>
+      <div class="fa-autor"><span class="fa-av" style="--c:#1F6FB2">DL</span><div><b>Dolores López Martínez</b><small>Observatorio Ocupacional, Universidad Miguel Hernández de Elche</small></div></div>
       </div>
   </div>
   <h2 class="sec-title" data-i18n="Cómo funciona">Cómo funciona</h2>
@@ -572,7 +574,7 @@ label.btn{cursor:pointer}
 </section>
 </main>
 
-<footer class="fa-foot"><hr><p><b>CompetencIA</b> · Fernando Borrás Rocher · Universidad Miguel Hernández de Elche. <span data-i18n="f.pie">Herramienta de apoyo: la IA puede equivocarse y la decisión final es tuya. Tus datos se guardan solo en este navegador.</span></p></footer>
+<footer class="fa-foot"><hr><p><b>CompetencIA</b> · Fernando Borrás Rocher · Domingo Rafael Galiana Lapera · Dolores López Martínez · Universidad Miguel Hernández de Elche; Observatorio Ocupacional, Universidad Miguel Hernández de Elche. <span data-i18n="f.pie">Herramienta de apoyo: la IA puede equivocarse y la decisión final es tuya. Tus datos se guardan solo en este navegador.</span></p></footer>
 <div class="bottomnav"><div class="bn-in"><button class="btn btn-ghost" id="navBack" type="button"><svg class="i"><use href="#i-left"/></svg><span data-i18n="Atrás">Atrás</span></button><div class="bn-hint" id="navHint"></div><button class="btn btn-primary" id="navNext" type="button"><span id="navNextTxt">Siguiente</span><svg class="i"><use href="#i-right"/></svg></button></div></div>
 
 <div class="modal" id="mIA" role="dialog" aria-modal="true" aria-labelledby="mIAT"><div class="modal-box"><div class="modal-head"><h2 id="mIAT" data-i18n="Inteligencia artificial">Inteligencia artificial</h2><button type="button" data-close data-i18n="Cerrar">Cerrar</button></div><div class="modal-body">
@@ -1804,7 +1806,7 @@ const EJ = {
 };
 
 /* ══ CompetencIA · interfaz. Datos en competencias.js, lógica pura en nucleo.js, ejemplo en ejemplo.js. ══ */
-const VERSION = '1.0.0';
+const VERSION = '1.0.1';
 const STEPS = ['Inicio', 'Perfil', 'Situaciones', 'Niveles', 'Informe'];
 const HUBS = ['Observatorio'];
 const OBS_STEP = STEPS.length;

@@ -4,6 +4,8 @@ Tus competencias transversales, de A1 a C2, con evidencias verificadas. Aplicaci
 
 **Usar la app:** https://fborrasumh.github.io/competencia/
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23930177.svg)](https://doi.org/10.5281/zenodo.23930177)
+
 **Idiomas:** español (por defecto), inglés, portugués; selector en la barra superior (o `?lang=en` / `?lang=pt` en la URL).
 
 ## Qué hace
@@ -46,7 +48,7 @@ ORCID: Fernando Borrás Rocher [0000-0002-5519-4573](https://orcid.org/0000-0002
 
 ## Cómo citar
 
-Borrás Rocher, F. (2026). *CompetencIA* (v1.0.0) [Software]. (DOI en trámite)
+Borrás Rocher, F. (2026). *CompetencIA* (v1.0.0) [Software]. DOI: [10.5281/zenodo.23930177](https://doi.org/10.5281/zenodo.23930177)
 
 ## Pruebas
 
